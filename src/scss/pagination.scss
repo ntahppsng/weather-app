@@ -1,0 +1,26 @@
+.pagination {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px;
+}
+
+.pagination a{
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    text-decoration: none;
+    color: #8860D0;
+    box-shadow: 1px 1px 6px #8860D0;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0px 40px;
+}
+
+.pagination .pages a:hover{
+    background-color: rgb(193,200,228, 0.5);
+}
+
+.active {
+    background: rgb(193,200,228, 0.8);
+}

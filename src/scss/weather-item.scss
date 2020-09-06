@@ -1,0 +1,30 @@
+
+.weather-item {
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  font-weight: 500;
+}
+
+.weather-item_date{
+  color: #FFF;
+}
+
+.weather-item_time{
+  color: #FFF;
+}
+
+.weather-item_weather-state_temperature {
+  color: #FFF;
+  font-weight: 900;
+  margin: 30px 0px;
+}
+
+.weather-item_weather-state_sky {
+  color: #FFF;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 15px;
+}

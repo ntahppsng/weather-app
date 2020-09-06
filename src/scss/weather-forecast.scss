@@ -1,0 +1,57 @@
+
+.day-forecast {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+:host ::ng-deep .weather-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 100vh;
+
+  /* Text borders */
+  text-shadow:0px 1px 0 rgb(86,128,233),0px -1px 0 rgb(86,128,233),1px 0px 0 rgb(86,128,233),-1px 0px 0 rgb(86,128,233),1px 1px 0 rgb(86,128,233),1px -1px 0 rgb(86,128,233),-1px 1px 0 rgb(86,128,233),-1px -1px 0 rgb(86,128,233),2px 2px 1px rgba(0,0,0,0.3);
+  -webkit-text-shadow:0px 1px 0 rgb(86,128,233),0px -1px 0 rgb(86,128,233),1px 0px 0 rgb(86,128,233),-1px 0px 0 rgb(86,128,233),1px 1px 0 rgb(86,128,233),1px -1px 0 rgb(86,128,233),-1px 1px 0 rgb(86,128,233),-1px -1px 0 rgb(86,128,233),2px 2px 1px rgba(0,0,0,0.3);
+  -moz-text-shadow:0px 1px 0 rgb(86,128,233),0px -1px 0 rgb(86,128,233),1px 0px 0 rgb(86,128,233),-1px 0px 0 rgb(86,128,233),1px 1px 0 rgb(86,128,233),1px -1px 0 rgb(86,128,233),-1px 1px 0 rgb(86,128,233),-1px -1px 0 rgb(86,128,233),2px 2px 1px rgba(0,0,0,0.3);
+}
+
+:host ::ng-deep .list-info {
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 25px;
+
+  /* Text borders */
+  text-shadow:0px 1px 0 rgb(86,128,233),0px -1px 0 rgb(86,128,233),1px 0px 0 rgb(86,128,233),-1px 0px 0 rgb(86,128,233),1px 1px 0 rgb(86,128,233),1px -1px 0 rgb(86,128,233),-1px 1px 0 rgb(86,128,233),-1px -1px 0 rgb(86,128,233),2px 2px 1px rgba(0,0,0,0.3);
+  -webkit-text-shadow:0px 1px 0 rgb(86,128,233),0px -1px 0 rgb(86,128,233),1px 0px 0 rgb(86,128,233),-1px 0px 0 rgb(86,128,233),1px 1px 0 rgb(86,128,233),1px -1px 0 rgb(86,128,233),-1px 1px 0 rgb(86,128,233),-1px -1px 0 rgb(86,128,233),2px 2px 1px rgba(0,0,0,0.3);
+  -moz-text-shadow:0px 1px 0 rgb(86,128,233),0px -1px 0 rgb(86,128,233),1px 0px 0 rgb(86,128,233),-1px 0px 0 rgb(86,128,233),1px 1px 0 rgb(86,128,233),1px -1px 0 rgb(86,128,233),-1px 1px 0 rgb(86,128,233),-1px -1px 0 rgb(86,128,233),2px 2px 1px rgba(0,0,0,0.3);
+}
+
+.location .city {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+:host ::ng-deep .weather-item {
+  box-shadow: 1px 1px 6px #8860D0;
+  height: 180px;
+  width: 160px;
+  padding: 20px;
+}
+
+:host ::ng-deep .weather-item_time{
+  font-size: 16px;
+}
+
+:host ::ng-deep .weather-item_weather-state_temperature {
+  font-size: 42px;
+}
+
+:host ::ng-deep .weather-item_weather-state_sky {
+  font-size: 16px;
+}
